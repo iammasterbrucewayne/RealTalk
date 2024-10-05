@@ -99,6 +99,11 @@ export default function Home() {
           <ChitThread chits={chits} parentId={4} />
           <ChitThread chits={chits} parentId={3} />
           <ChitThread chits={chits} parentId={1} />
+          <div className="h-[calc(100vh-200px)] text-center text-sm text-muted-foreground">
+            <p className="my-4">...</p>
+            <p className="font-medium mb-2">Congratulations!</p>
+            <p>You've unlocked the secret 'Go Touch Grass' achievement.</p>
+          </div>
         </div>
         <Navigation />
       </div>
