@@ -31,7 +31,7 @@ const ChitThread = ({
         <Button
           variant="default"
           size="icon"
-          className="rounded-full relative mb-2 row-start-1 col-start-1 w-12 h-12"
+          className="rounded-full relative mb-2 row-start-1 col-start-1 w-12 h-12 mr-2"
         >
           <Avatar className="w-12 h-12">
             <AvatarImage src={parentChit?.avatar} />
@@ -73,6 +73,9 @@ const ChitThread = ({
         {/* Child Chit */}
         {threadChits.length > 0 && (
           <Fragment>
+            <div className="w-full flex justify-end text-right col-start-1 row-start-1 row-span-3">
+              <div className="w-1/2 border-l-4 border-b-4 rounded-bl-2xl h-full -left-4 mr-2" />
+            </div>
             <div className="flex flex-col bg-gray-800 p-4 pb-8 rounded-2xl relative min-w-0 snap-start scroll-mt-2 row-start-3 col-span-1 col-start-2">
               <div className="flex items-center mb-1 overflow-hidden">
                 <h3 className="font-medium text-sm truncate mr-1 min-w-0">
@@ -100,9 +103,9 @@ const ChitThread = ({
             <Button
               variant="default"
               size="icon"
-              className="rounded-full relative col-start-3 row-start-3"
+              className="rounded-full relative col-start-3 row-start-3 w-12 h-12 mx-2"
             >
-              <Avatar className="w-10 h-10">
+              <Avatar className="w-12 h-12">
                 <AvatarImage src={threadChits[0]?.avatar} />
                 <AvatarFallback>{threadChits[0]?.user[0]}</AvatarFallback>
               </Avatar>
