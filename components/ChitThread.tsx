@@ -31,9 +31,9 @@ const ChitThread = ({
         <Button
           variant="default"
           size="icon"
-          className="rounded-full relative mb-2 row-start-1 col-start-1"
+          className="rounded-full relative mb-2 row-start-1 col-start-1 w-12 h-12"
         >
-          <Avatar className="w-10 h-10">
+          <Avatar className="w-12 h-12">
             <AvatarImage src={parentChit?.avatar} />
             <AvatarFallback>{parentChit?.user[0]}</AvatarFallback>
           </Avatar>
