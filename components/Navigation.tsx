@@ -24,7 +24,7 @@ const Navigation = () => {
       <Button variant="ghost" size="icon">
         <Search className="h-5 w-5" />
       </Button>
-      <div className="w-14 h-14 mb-1 flex items-end justify-center">
+      <div className="w-10 h-10 mb-1 flex items-end justify-center">
         {replyingTo ? (
           <Button
             variant={isRecording ? "destructive" : "default"}
@@ -49,12 +49,12 @@ const Navigation = () => {
           </Button>
         )}
       </div>
-        <Button variant="ghost" size="icon">
-          <Bell className="h-5 w-5" />
-        </Button>
-        <Button variant="ghost" size="icon">
-          <User className="h-5 w-5" />
-        </Button>
+      <Button variant="ghost" size="icon">
+        <Bell className="h-5 w-5" />
+      </Button>
+      <Button variant="ghost" size="icon">
+        <User className="h-5 w-5" />
+      </Button>
     </div>
   );
 };
