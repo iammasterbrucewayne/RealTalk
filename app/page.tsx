@@ -2,7 +2,6 @@
 
 import { ChitThread } from "@/components/ChitThread";
 import { Navigation } from "@/components/Navigation";
-import { time } from "console";
 import React, { useState } from "react";
 
 interface Chit {
@@ -25,7 +24,7 @@ export default function Home() {
       content:
         "A man who needs no introduction, welcome Theo Vaughn to AirChat.",
       time: "14h",
-      avatar: "/placeholder-user.jpg",
+      avatar: "https://i.pravatar.cc/300?img=1",
       referenda:
         "#490 Funding Development Costs for Expanding Dot Code School — Interactive Coding School — Bridging the Gap Between Online Learning and Real-World Web3 Development with Local Coding Environments",
     },
@@ -36,7 +35,7 @@ export default function Home() {
       content:
         "Until I hear his voice, or until I see his mullet, I do not believe this is Theo Von.",
       time: "20m",
-      avatar: "/placeholder-user2.jpg",
+      avatar: "https://i.pravatar.cc/300?img=2",
       referenda:
         "#490 Funding Development Costs for Expanding Dot Code School — Interactive Coding School — Bridging the Gap Between Online Learning and Real-World Web3 Development with Local Coding Environments",
     },
@@ -46,7 +45,7 @@ export default function Home() {
       user: "Batman",
       content: "I am Batman. I am the Dark Knight.",
       time: "20m",
-      avatar: "/placeholder-user2.jpg",
+      avatar: "https://i.pravatar.cc/300?img=3",
       referenda:
         "#490 Funding Development Costs for Expanding Dot Code School — Interactive Coding School — Bridging the Gap Between Online Learning and Real-World Web3 Development with Local Coding Environments",
     },
@@ -57,7 +56,7 @@ export default function Home() {
       content:
         "I'm of the belief that generative AI is going to usher in the most creative time in human history. That's because all we'll have left is taste.",
       time: "8h",
-      avatar: "/placeholder-user.jpg",
+      avatar: "https://i.pravatar.cc/300?img=1",
       referenda:
         "#490 Funding Development Costs for Expanding Dot Code School — Interactive Coding School — Bridging the Gap Between Online Learning and Real-World Web3 Development with Local Coding Environments",
     },
@@ -68,7 +67,7 @@ export default function Home() {
       content:
         "Agree 100%. We should see a creative explosion if we can automate as much of the drudgery and suffering as possible through the use of AI. When we solve a new problem, we should then try and automate that. Constantly i... Show more",
       time: "2h",
-      avatar: "/placeholder-user3.jpg",
+      avatar: "https://i.pravatar.cc/300?img=4",
       referenda:
         "#490 Funding Development Costs for Expanding Dot Code School — Interactive Coding School — Bridging the Gap Between Online Learning and Real-World Web3 Development with Local Coding Environments",
     },
