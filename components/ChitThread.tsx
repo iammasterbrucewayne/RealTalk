@@ -42,7 +42,7 @@ const ChitThread = ({
           <h3 className="font-medium text-sm truncate mr-1 min-w-0">
             {parentChit?.user}
           </h3>
-          <a className="text-sm text-blue-500 cursor-pointer truncate mr-1 min-w-0">
+          <a className="max-w-[50%] text-sm text-blue-500 cursor-pointer truncate mr-1 min-w-0">
             in <span className="font-medium">{parentChit?.referenda}</span>
           </a>
           <p className="text-xs text-muted-foreground whitespace-nowrap ml-auto">
